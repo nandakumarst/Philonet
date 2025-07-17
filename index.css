@@ -283,7 +283,7 @@ padding: 0 10px;
 width: 100%;
 justify-content: flex-start;
 font-size: 14px;
-margin-bottom: 8px;
+margin-top: 10px;
 }
 .registerBtn {
   width: 60%;
@@ -438,4 +438,141 @@ font-size: 16px;
 padding: 10px 0;
 margin-top: 12px;
 }
+}
+
+/* --- Medium Device Styles (Tablet) --- */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    width: 98%;
+    padding: 0 1vw;
+  }
+  .footerContainer {
+    height: 70px;
+    padding: 0 2vw;
+  }
+  .footer {
+    width: 90%;
+    gap: 2vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw;
+  }
+  .title {
+    font-size: 1.5vw;
+    
+    margin-top: 10px;
+  }
+  .registerBtn {
+    font-size: 1.2vw;
+    padding: 10px 20px;
+    min-width: 100px;
+    max-width: 180px;
+  }
+  .heroSection {
+    padding: 24px 0;
+  }
+  .heroContainer {
+    flex-direction: row;
+    gap: 60px;
+    padding: 0 2vw;
+    align-items: center;
+  }
+  .hero {
+    max-width: 380px;
+    margin-left: 0;
+    align-items: flex-start;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .breakText {
+    font-size: 1.7rem;
+    margin-right: 125px;
+  }
+  .heroContent {
+    font-size: 1rem;
+  }
+  .button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    width: auto;
+    margin-top: 10px;
+  }
+  .heroimage {
+    width: 180px;
+    margin-left: 30px;
+    padding: 0;
+  }
+  .dotimage {
+    width: 24px;
+    height: 8px;
+    margin-top: 10px;
+  }
+  .clientContainer {
+    width: 95%;
+    padding: 0 1vw;
+  }
+  .clientLogos {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .clientLogo {
+    width: 36px;
+    height: 28px;
+    margin: 8px;
+  }
+  .section-title {
+    flex-direction: row;
+    gap: 18px;
+    margin-left: 0;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .section-sub {
+    width: 30vw;
+    max-width: 220px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .section-Image {
+    width: 48px;
+    height: 48px;
+  }
+  .body-section {
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .sub-image {
+    width: 220px;
+    height: 300px;
+    margin-left: 30px;
+  }
+  .sub-section {
+    width: 60%;
+    max-width: 100%;
+    padding: 10px;
+    margin-right: 20px;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .sub-section h1,
+  .sub-section p1,
+  .sub-section .sub-button {
+    text-align: left;
+    width: 100%;
+  }
+  .sub-button {
+    width: 40%;
+    min-width: 120px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center !important;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-top: 12px;
+  }
 }
