@@ -1,0 +1,441 @@
+
+.container {
+display: flex;
+flex-direction: column;
+background: #FFFFFF;
+min-height: 100vh;
+width: 100%;
+margin: 0 auto;
+}
+
+.footerContainer {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-color: #FFFFFF;
+width: 100%;
+height: 60px;
+}
+
+.footer {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+width: 68%;
+gap: 3vw;
+}
+
+.title {
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 4vw;
+font-size: 1vw;
+}
+
+.registerBtn {
+background-color: #34A853;
+color: #fff;
+border: none;
+border-radius: 4px;
+font-size: 1vw;
+padding: 10px 24px;
+cursor: pointer;
+}
+
+.heroSection {
+display: flex;
+flex-direction: column;
+
+align-items: center;
+background: #f7f8fa;
+
+
+}
+
+.heroContainer {
+display: flex;
+flex-direction:row;
+justify-content: space-around;
+align-items: center;
+gap: 200px;
+}
+
+.hero {
+display: flex;
+flex-direction: column;
+
+text-align: left;
+max-width: 500px;
+align-items: flex-start;
+margin-left: 0;
+}
+
+.hero h1 {
+font-size: 2.5rem;
+font-weight: 700;
+color: #333;
+margin-bottom: 0.5rem;
+line-height: 1.1;
+}
+
+.breakText {
+display: block;
+color: #4caf50;
+font-size: 2.2rem;
+font-weight: 700;
+margin-top: 0.2rem;
+margin-right:160px ;
+}
+
+.heroContent {
+color: #555;
+font-size: 0.95rem;
+margin-bottom: 1.5rem;
+margin-top: 0.5rem;
+text-align: left;
+}
+
+.button {
+background: #4caf50;
+color: #fff;
+border: none;
+padding: 10px 28px;
+border-radius: 5px;
+font-size: 1rem;
+cursor: pointer;
+font-weight: 500;
+transition: background 0.2s;
+width: auto;
+margin-top: 0;
+}
+
+.button:hover {
+background: #388e3c;
+}
+
+.heroimage {
+width: 230px;
+height: auto;
+padding: 10px;
+margin-left: 70px;
+}
+
+.dotimage {
+height: 10px;
+width: 30px;
+padding: 5px;
+margin-top: 16px;
+}
+
+.clientSection {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 10px;
+width: 100%;
+
+}
+
+
+.clientContainer  {
+width: 80%;
+padding: 0;
+margin: 0 auto;       
+text-align: center;   
+}
+
+.clientLogos{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+}
+
+.clientLogo{
+width: 40px;
+height: 30;
+margin: 10px;
+}
+
+.community{
+color: #4D4D4D;
+;
+}
+.sub-com{
+color: #717171;
+font-size: 12px;
+}
+
+.section-title{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-left: 150px;
+width: 80%;
+}
+
+.section-Bar{
+display: flex;
+
+
+
+}
+.section-sub{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 160px;
+font-size: 10px;
+gap: -4px;
+
+
+}
+
+.section-sub p,h1{
+margin-bottom: 10px;
+text-align: center;
+}
+.section-Image{
+height: 60px;
+width: 60px;
+}
+
+.body-section {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+gap: -10px;
+}
+
+.sub-section {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;   
+width: 35%;
+text-align: left;  
+padding: 20px;
+margin-right: 140px;        
+}
+.sub-button{
+background-color: #4CAF4F;
+border: none;
+color: white;
+padding: 8px;
+margin: 6px;
+border-radius: 3px;
+
+}
+
+.sub-image{
+height: 300px;
+margin-left: 130px;
+}
+
+.sub-section h1,
+.sub-section p1,
+.sub-section button {
+text-align: left;   
+
+}
+.sub-section p1{
+color: #717171;
+}
+.sub-section h1{
+color: #4D4D4D
+}
+
+.animated-button {
+  background: #4caf50;
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.08);
+}
+
+.animated-button:hover,
+.animated-button:focus {
+  background: #4caf50;
+  transform: scale(1.07);
+  box-shadow: 0 4px 16px rgba(52, 152, 219, 0.15);
+}
+
+/* --- Mobile Styles --- */
+@media (max-width: 600px) {
+.footerContainer {
+padding: 10px 0;
+}
+.footer {
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+padding: 0 10px;
+}
+.title {
+width: 100%;
+justify-content: flex-start;
+font-size: 14px;
+margin-bottom: 8px;
+}
+.registerBtn {
+  width: 60%;
+  
+  min-width: 120px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+  text-align: center !important;
+  font-size: 16px;
+  padding: 10px 0;
+  margin-top: 12px;
+}
+
+.heroSection {
+padding: 16px 0;
+}
+.hero h1 {
+font-size: 2rem;
+text-align: center;
+}
+.breakText {
+font-size: 1.5rem;
+text-align: center;
+}
+.heroContent {
+font-size: 14px;
+text-align: center;
+}
+.button {
+  width: 40%;
+  min-width: 120px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center !important;
+  font-size: 16px;
+  padding: 10px 0;
+  margin-top: 12px; 
+}
+.heroContainer {
+flex-direction: column;
+align-items: center;
+width: 100%;
+padding: 0;
+gap: 22px;
+
+}
+.hero {
+width: 100%;
+max-width: 100%;
+align-items: flex-start;
+}
+.heroText {
+font-size: 24px;
+}
+.heroimage {
+width: 100%;
+max-width: 300px;
+height: auto;
+margin: 16px 0 0 0;
+margin-top: 0; 
+}
+.dotimage {
+margin-top: 8px;
+}
+.section-title {
+flex-direction: column;
+align-items: center;
+margin-left: 0;
+width: 100%;
+gap: 24px;
+}
+.section-sub {
+width: 90%;
+max-width: 320px;
+margin-bottom: 20px;
+font-size: 12px;
+}
+.section-Image {
+width: 40px;
+height: 40px;
+}
+.button {
+margin-bottom: 0 !important;
+}
+.heroimage {
+margin-top: 0 !important;
+padding: 0 !important;
+}
+.body-section {
+flex-direction: column;
+align-items: center;
+gap: 16px;
+}
+.sub-image {
+width: 90%;
+max-width: 320px;
+height: auto;
+margin: 0 auto 8px auto;
+display: block;
+}
+.sub-section {
+width: 95%;
+max-width: 100%;
+align-items: flex-start;
+text-align: left;
+margin: 0 auto;
+}
+.sub-section h1,
+.sub-section p1,
+.sub-section .sub-button {
+text-align: left;
+width: 100%;
+}
+.sub-button {
+width: 100%;
+font-size: 16px;
+padding: 10px 0;
+margin: 0;
+align-self: stretch;
+}
+.sub-button {
+
+font-size: 16px;
+padding: 10px 0;
+margin: 0;
+
+}
+.sub-button {
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+text-align: center;
+font-size: 16px;
+padding: 10px 0;
+margin-top: 12px;
+}
+.sub-button {
+width: 40%;
+min-width: 120px;
+max-width: 200px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+text-align: center !important;
+font-size: 16px;
+padding: 10px 0;
+margin-top: 12px;
+}
+}
